@@ -1,7 +1,12 @@
-streamlit>=1.32
+# --- pin NumPy before binary wheels ---
+numpy==1.26.4          # <-- add / pin
 pandas
-numpy
 plotly
-prophet
-pmdarima
+
+# forecasting libs
+prophet==1.1.5         # (built against numpy 1.26)
+pmdarima==2.0.4        # (built against numpy 1.26)
+
+# the rest
+streamlit>=1.32
 requests
