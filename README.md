@@ -48,7 +48,7 @@ Local dev	~/.streamlit/secrets.toml or export OPENROUTER_API_KEY=sk-or-xxxxxxxx
 bash
 Copy
 Edit
-git clone https://github.com/yourname/Time-Series_Forecasting-Chatbot.git
+git clone https://github.com/THartyMBA/Time-Series-Forecasting-Chatbot.git
 cd Time-Series_Forecasting-Chatbot
 python -m venv venv && source venv/bin/activate     # Win: venv\Scripts\activate
 pip install -r requirements.txt
